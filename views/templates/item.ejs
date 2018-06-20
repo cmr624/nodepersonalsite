@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <% include ../partials/head %>
+  </head>
+  <body>
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <div class ="item-header">
+      <img class="header-image" src="<%= item.coverURL %>">
+      <h1 class="centered-on-item-header"><%= item.name %></h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <div class="container">
+            <% for(let i=0; i < item.sections.length; i++) { %>
+              <h2><%=item.sections[i].title%></h2>
+              <% if (item.sections[i].description) { %>
+                <p><%=item.sections[i].description %></p>
+              <%} else if(item.sections[i].list){ %>
+                <ul>
+                <% for(let x=0; x < item.sections[i].list.length; x++) { %>
+                  <li><%=item.sections[i].list[x]%></li>
+                <% } %>
+                </ul>
+               <% } %>
+            <% } %>
+            <h2 class="">Project Description</h2>
+          </div>
+        </div>
+        <div class="item-sidebar">col-4</div>
+      </div>
+    </div>
+
+
+    <% include ../partials/footer %>
+
+  </body>
+</html>

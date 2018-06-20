@@ -15,6 +15,29 @@ body
 .container {
   max-width: 960px;
 }
+.item-header{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered-on-item-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-image{
+  width:100%;
+  max-height:300px;
+  object-fit: cover;
+  object-position: 0 70%;
+  opacity: .2;
+}
+.item-sidebar{
+  position: relative; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+}
 
 /*
  * Dummy devices (replace them with your own or something else entirely!)
@@ -45,7 +68,7 @@ body
   background-color: rgba(255, 255, 255, .3);
   border-radius: 5px;
   background-image: url("/images/projects/out2.gif");
-  opacity:.25;
+  opacity:.2;
 }
 
 .product-device-2::before {
@@ -58,7 +81,7 @@ body
   background-color: rgba(255, 255, 255, .3);
   border-radius: 5px;
   background-image: url("/images/projects/out3.gif");
-  opacity:.25;
+  opacity:.2;
 
 }
 .product-device-2 {
@@ -99,3 +122,14 @@ body
 }
 
 .overflow-hidden { overflow: hidden; }
+
+
+.project-thumbnail
+{
+  width: 80%;
+  height: 300px;
+  border-radius: 21px 21px 0 0;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
