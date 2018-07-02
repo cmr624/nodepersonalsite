@@ -24,11 +24,10 @@
           <div class="product-device product-device-1 box-shadow d-none d-md-block"></div>
           <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
         </div>
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 overflow-hidden">
           <% for (var i = 0; i < projects.length; i++) { %>
-
+            <div class="row">
               <% if ((i % 2) === 0){ %>
-                <div class="row">
                 <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                   <div class="my-3 py-3">
                     <h2 class="display-5"><a href="<%= projects[i].link %>"><%= projects[i].title %></a></h2>
@@ -46,9 +45,8 @@
                 </div>
                 </div>
               <% } %>
+            </div>
             <% } %>
-        </div>
-
 
     </main>
 
