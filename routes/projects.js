@@ -22,7 +22,7 @@ gifs.push(path + "out3.gif");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('projects/index', { title: 'Projects', description: "While NYU's Computer Science program has exposed me to C, Java, Python and more, my experience in a variety of APIs through developing web apps and other projects makes me well-equipped as a developer to jump from framework to framework and deliver a quality product.", projects: projects});
+  res.render('projects/index', { active: "projects", title: 'Projects', description: "While NYU's Computer Science program has exposed me to C, Java, Python and more, my experience in a variety of APIs through developing web apps and other projects makes me well-equipped as a developer to jump from framework to framework and deliver a quality product.", projects: projects});
 });
 
 class item
@@ -45,15 +45,29 @@ class section
   }
 }
 
-let kitchenSections = [];
-kitchenSections.push(new section("Project Description", 'A semester long-project in "Introduction to Game Development" taken at the NYU Game Center. The assignment was to produce a fully playable Prototype in Unity 2D by the end of the semester.'));
-let skillsList = ["Scoping a Prototype", "Basic 2D Pixelart Animation and Art Generation", "Unity 2D Animation Timing", "Unity 2D Classes in C#"];
-kitchenSections.push(new section("Skills Learned", null, skillsList))
-let arFinal = new item("The Kitchen", path + "kitchengif480speedup.gif", kitchenSections);
+class link
+{
+  constructor(type, description, link)
+  {
+    this.type = type;
+    this.description = description;
+    this.link = link;
+  }
+}
 
+class img
+{
+  constructor(path, topCaption, bottomCaption, active)
+  {
+    this.path = path;
+    this.topCaption = topCaption;
+    this.bottomCaption = bottomCaption;
+    this.active = active;
+  }
+}
 router.get("/ARFinal", function(req, res, next)
 {
-  res.render("templates/item.ejs", {item: arFinal});
+  res.render("templates/item.ejs", {active: "projects", item: null, links: null, credits:"Programming, Art, Animation, and Design by Carlos-Michael Rodriguez", images: null});
 });
 
 module.exports = router;

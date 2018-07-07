@@ -35,29 +35,65 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/games">Games</a>
-      </li>
-      <li class="nav-item">
-        <div class="dropdown">
-          <a class="nav-link btn btn-primary-outline dropdown-toggle"role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            More
-          </a>
+      <% if (active === "home") { %>
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+      <% } else { %>
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+      <% } %>
+      <% if (active === "projects") { %>
+        <li class="nav-item active">
+          <a class="nav-link disabled" href="/projects">Projects <span class="sr-only">(current)</span></a>
+        </li>
+      <% } else { %>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Projects</a>
+        </li>
+      <% } %>
+      <% if (active === "games") { %>
+        <li class="nav-item active">
+          <a class="nav-link" href="/games">Games <span class="sr-only">(current)</span></a>
+        </li>
+      <% } else { %>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Games</a>
+        </li>
+      <% } %>
+      <% if (active === "more") { %>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="nav-link btn btn-primary-outline dropdown-toggle active"role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
 
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item btn btn-primary-outline" role="button" href="/blog">Blog</a>
-            <a class="dropdown-item btn btn-primary-outline" role="button" href="/recipes">Recipes</a>
-            <a class="dropdown-item btn btn-primary-outline" href="/resume">CV</a>
-            <a class="dropdown-item btn btn-primary-outline" href="/Contact">Contact</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item btn btn-primary-outline disabled" role="button" href="/blog">Blog</a>
+              <a class="dropdown-item btn btn-primary-outline" role="button" href="/recipes">Recipes</a>
+              <a class="dropdown-item btn btn-primary-outline disabled" href="/resume">CV</a>
+              <a class="dropdown-item btn btn-primary-outline" href="/contact">Contact</a>
+            </div>
           </div>
-        </div>
-      </li>
+        </li>
+      <% } else { %>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="nav-link btn btn-primary-outline dropdown-toggle"role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item btn btn-primary-outline disabled" role="button" href="/blog">Blog</a>
+              <a class="dropdown-item btn btn-primary-outline disabled" role="button" href="/recipes">Recipes</a>
+              <a class="dropdown-item btn btn-primary-outline disabled" href="/resume">CV</a>
+              <a class="dropdown-item btn btn-primary-outline" href="/contact">Contact</a>
+            </div>
+          </div>
+        </li>
+      <% } %>
+
     </ul>
   </div>
 </nav>
