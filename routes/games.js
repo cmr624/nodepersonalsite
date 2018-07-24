@@ -1,5 +1,6 @@
 let classPath = "./../public/javascripts/classes.js";
 let gamesJSON = require("./json/gamesIndex.json");
+let gamesInfoJSON = require("./json/games.json");
 const game = require(classPath).game;
 const item = require(classPath).item;
 const section = require(classPath).section;
@@ -47,7 +48,7 @@ let kitchenCredits = "Programming, Art, Animation, and Design by Carlos-Michael 
 
 router.get("/kitchenprototype", function(req, res, next)
 {
-  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/gamesplash.css", item: kitchen, links: kitchenLinks, credits:kitchenCredits, images: kitchenImages});
+  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/gamesplash.css", item: gamesInfoJSON[0], links: gamesInfoJSON[0].links, credits:kitchenCredits, images: gamesInfoJSON[0].images});
 });
 
 module.exports = router;

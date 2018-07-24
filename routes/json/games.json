@@ -1,0 +1,38 @@
+[
+    {
+        "name": "The Kitchen Prototype",
+        "coverURL": "/images/games/kitchengif480speedup.gif",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description":"A semester long-project in 'Introduction to Game Development' taken at the NYU Game Center. The assignment was to produce a fully playable Prototype in Unity 2D by the end of the semester.",
+            "list": null
+          },
+          {
+            "title": "Skills Learned",
+            "description":null,
+            "list": ["Scoping a Prototype", "Basic 2D Pixelart Animation and Art Generation", "Unity 2D Animation Timing", "Unity 2D Classes in C#"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-github",
+            "description":"Project Repository",
+            "link":"https://github.com/cmr624/kitchen_prototype"
+          },
+          {
+            "type":"fa fa-gamepad",
+            "description":"Play now!",
+            "link":"https://cmr624.itch.io/kitchen-assignment-3"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/kitchengif480speedup.gif",
+            "topCaption":"Kitchen Prototype",
+            "bottomCaption":"Developed for Intro to Games Development",
+            "active":"active"
+          }
+        ]
+    }
+]
