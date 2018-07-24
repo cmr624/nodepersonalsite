@@ -18,6 +18,7 @@ h2 > a{
   font-family: Futura;
 }
 
+
 .nav-item > a {
   font-family: Futura;
 }
@@ -27,8 +28,12 @@ h2 > a{
 .navbar-fixed-bottom * {
   font-family: Futura;
 }
-.games * {
-  font-family: "Courier New";
+.games-title *{
+  font-size: 40px !important;
+}
+.games *{
+  font-family: "Futura";
+  font-size: 25px;
 }
 
 .futura {

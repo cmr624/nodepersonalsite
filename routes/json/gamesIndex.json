@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Kirby & the Amazing Burgers",
+        "description": "A 2D Javascript cooking game midterm project written in P5.",
+        "img":"/images/games/kirby.png",
+        "link":"/games/kirby"
+    },
+    {
+        "title": "Space Arrow VR",
+        "description": "A Unity 3D VR project where planetary bodies affect the gravity of a shot arrow.",
+        "img":"/images/games/spaceVR.png",
+        "link":"/games/spaceVR"
+    },
+    {
+        "title": "The Kitchen",
+        "description": "A 2D Playable Prototype for a Cooking Game built in Unity.",
+        "img":"/images/games/kitchenindex.png",
+        "link":"/games/kitchenPrototype"
+    },
+    {
+        "title": "You Up?",
+        "description": "A mobile text adventure game currently being developed for iOS.",
+        "img":"/images/games/youupindex.png",
+        "link":"/games/youup"
+    }
+]
