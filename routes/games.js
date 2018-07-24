@@ -1,4 +1,6 @@
 let classPath = "./../public/javascripts/classes.js";
+let gamesJSON = require("./json/gamesIndex.json");
+let gamesInfoJSON = require("./json/games.json");
 const game = require(classPath).game;
 const item = require(classPath).item;
 const section = require(classPath).section;
@@ -6,15 +8,9 @@ const link = require(classPath).link;
 const img = require(classPath).img;
 var express = require('express');
 var router = express.Router();
-
-let kirby = new game("Kirby", "A 2D Playable Prototype for a Cooking Game built in Unity.", "/images/projects/clarifyLogo.png", "#");
-let spaceVR = new game("Space Arrow", "A Unity 3D VR project where planetary bodies affect the gravity of a shot arrow.", "/images/projects/clarifyLogo.png", "#");
-let kitchenGame = new game("The Kitchen", "A 2D Playable Prototype for a Cooking Game built in Unity.", "/images/projects/kitchengif480speedup.gif", "/games/kitchenprototype");
-let youUp = new game("You Up?", "A mobile text adventure game currently being developed for iOS.", "/images/projects/clarifyLogo.png", "#");
-
 let games = [
-  [kirby, spaceVR],
-  [kitchenGame, youUp]
+  [gamesJSON[0], gamesJSON[1]],
+  [gamesJSON[2], gamesJSON[3]]
 ];
 
 let gifs = [];
@@ -22,31 +18,32 @@ let path = "/images/games/";
 gifs.push(path + "out2.gif");
 gifs.push(path + "out3.gif");
 
-let description = "Game Designer. This is some Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullam. se cillum dorum.";
+let description = "With my minor in Game Design and access to the NYU Game Center, I have been able to use my programming and design skills to make interesting and creative interactive experiences. My portfolio of games demonstrates my ability to build and design a variety of types of experiences in different programming languages and development environments, including Unity 2D, Unity VR, Javascript, web-based AR and more.";
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('games/index', { active: "games", title: 'Games', description: description, games: games});
 });
 
-let kitchenSections = [];
-kitchenSections.push(new section("Project Description", 'A semester long-project in "Introduction to Game Development" taken at the NYU Game Center. The assignment was to produce a fully playable Prototype in Unity 2D by the end of the semester.'));
-let skillsList = ["Scoping a Prototype", "Basic 2D Pixelart Animation and Art Generation", "Unity 2D Animation Timing", "Unity 2D Classes in C#"];
-kitchenSections.push(new section("Skills Learned", null, skillsList))
-let kitchen = new item("The Kitchen", path + "kitchengif480speedup.gif", kitchenSections);
-
-let kitchenLinks = [];
-kitchenLinks.push(new link("fa fa-github", "Project Repository", "https://github.com/cmr624/kitchen_prototype"));
-kitchenLinks.push(new link("fa fa-gamepad", "Play now!", "https://cmr624.itch.io/kitchen-assignment-3"));
-
-let kitchenImages = [];
-kitchenImages.push(new img("/images/games/kitchengif480speedup.gif", "Kitchen Prototype", "Developed for Intro to Games Development", "active"));
-
 let kitchenCredits = "Programming, Art, Animation, and Design by Carlos-Michael Rodriguez";
+let vrCredits = "Programming, Art, and Design by Nina Demirjian, Elliot Winch, Nesma Belkhodja, and Carlos-Michael Rodriguez";
+let kirbyCredits = "Developed by Carlos-Michael Rodriguez, Jevons Wang, and Nicole Wang";
+let youupcredits="Developed by Nina Demirjian, Elliot Winch, and Carlos-Michael Rodriguez";
 
 router.get("/kitchenprototype", function(req, res, next)
 {
-  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/gamesplash.css", item: kitchen, links: kitchenLinks, credits:kitchenCredits, images: kitchenImages});
+  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/gameinfo.css", item: gamesInfoJSON[0], links: gamesInfoJSON[0].links, credits:kitchenCredits, images: gamesInfoJSON[0].images});
 });
-
+router.get("/spaceVR", function(req, res, next)
+{
+  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/gameinfo.css", item: gamesInfoJSON[1], links: gamesInfoJSON[1].links, credits:vrCredits, images: gamesInfoJSON[1].images});
+});
+router.get("/kirby", function(req, res, next)
+{
+  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/gameinfo.css", item: gamesInfoJSON[2], links: gamesInfoJSON[2].links, credits:kirbyCredits, images: gamesInfoJSON[2].images});
+});
+router.get("/youup", function(req, res, next)
+{
+  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/specialyouup.css", item: gamesInfoJSON[3], links: gamesInfoJSON[3].links, credits:youupcredits, images: gamesInfoJSON[3].images});
+});
 module.exports = router;

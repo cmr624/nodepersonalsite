@@ -1,0 +1,157 @@
+[
+    {
+        "name": "The Kitchen Prototype",
+        "coverURL": "/images/games/kitchengif480speedup.gif",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description":"A semester long-project in 'Introduction to Game Development' taken at the NYU Game Center. The assignment was to produce a fully playable Prototype in Unity 2D by the end of the semester.",
+            "list": null
+          },
+          {
+            "title": "Skills Learned",
+            "description":null,
+            "list": ["Scoping a Prototype", "Basic 2D Pixelart Animation and Art Generation", "Unity 2D Animation Timing", "Unity 2D Classes in C#"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-github",
+            "description":"Project Repository",
+            "link":"https://github.com/cmr624/kitchen_prototype"
+          },
+          {
+            "type":"fa fa-gamepad",
+            "description":"Play now!",
+            "link":"https://cmr624.itch.io/kitchen-assignment-3"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/kitchengif480speedup.gif",
+            "topCaption":"Kitchen Prototype",
+            "bottomCaption":"Developed for Intro to Games Development",
+            "active":"active"
+          }
+        ]
+    },
+    {
+        "name": "Space Arrow VR",
+        "coverURL": "/images/games/withoutLogoVR.png",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description":"Our final project for Ken Perlin's Computer Graphics Class. Made in Unity for the HTC Vive, our team created a VR minigame where gravity affects the trajectory of arrows to score trick shots on targets. Different planetary bodies have different masses, which means arrows you shoot towards the orbit of different planets will allow the arrow to curve and bend in fun, unique, and interesting ways.",
+            "list": null
+          },
+          {
+            "title": "Skills Developed",
+            "description":null,
+            "list": ["Unity VR", "Unity 3D", "Steam VR", "Coding / Managing VR Controls"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-github",
+            "description":"Project Repository",
+            "link":"https://github.com/GreatGrandmaGames/GraphicsFinal"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/withoutLogoVR.png",
+            "topCaption":"Space Arrow VR",
+            "bottomCaption":"A screenshot of the game in 2D development mode.",
+            "active":"active"
+          }
+        ]
+    },
+    {
+        "name": "Kirby & The Amazing Burgers",
+        "coverURL": "/images/games/kirbyplay.gif",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description": "Using Javascript and P5.js, we created 'Kirby & the Amazing Burgers' for our Midterm project in Craig Kapp's Interactive Computing class. This class was the final class counting towards my web programming minor.",
+            "list": null
+          },
+          {
+            "title": "Skills Developed",
+            "description":null,
+            "list": ["Scoping a Prototype", "2D Pixelart Animation using Pre-made Gifs", "Javascript", "P5.js", "Polish with Art and Music"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-github",
+            "description":"Project Repository",
+            "link":"https://github.com/cmr624/interactiveMidterm"
+          },
+          {
+            "type":"fa fa-youtube",
+            "description":"Playthrough on YouTube",
+            "link":"https://www.youtube.com/embed/aaHgj1Xjmw8"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/kirbyplay.gif",
+            "topCaption":"Kirby Cooking Game",
+            "bottomCaption":"A brief playthrough of the game.",
+            "active":"active"
+          }
+        ]
+    },
+    {
+        "name": "You Up?",
+        "coverURL": "/images/games/youup-ggjam.gif",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description": "Originally designed as a prototype for Global Game Jam 2018, this mobile, dating app text adventure is currently in development.",
+            "list": null
+          },
+          {
+            "title": "Concept",
+            "description": "The game was originally designed as a game to submit to the 2018 Global Game Jam, which had a simple theme: 'TRANSMISSION.' We thought a good direction was to explore 'transmission' as the way we communicate today in society with technology. Based loosely on true events, the team and I thought it would be interesting to explore putting users directly in control of a character who experiences the perils of online dating. Being able to swipe through and actually choose someone to talk to was a big part of the concept; we liked the idea that players would be willingly (and unknowingly) choosing someone to date who later (mild spoilers!) becomes aggressive and problematic. You play as an unnamed woman in college who is trying a Tinder-like dating app for the first time. The app is currently in development and the targeted release date is 2018.",
+            "list": null
+          },
+          {
+            "title": "Parser Design Process",
+            "description": "My biggest responsiblity on the project was to create a system which we can rapidly create multiple storylines based on what the user chooses. Using an application called Twine, we could easily storyboard the story to see what actions lead to what consequences, but that app does not export into an Xcode-friendly way, so I had to create a system that would convert the visual storyboard into workable code for Nina and Elliot to use within the application.",
+            "list": ["Created a standard format within Twine to consistently generate the same format of output.", "Used a plugin to convert Twine into JS friendly JSON.", "Built a parser to convert Twine into a tsv that worked within the app."]
+          },
+          {
+            "title": "Skills Developed",
+            "description":null,
+            "list": ["Rapid Prototyping", "Writing and Storyboarding a Multiple Path Story", "Built a Parser to Convert Twine to JSON.", "Github Collaboration, Project Management, and Issue Tracking"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-github",
+            "description":"Project Repository",
+            "link":"https://github.com/GreatGrandmaGames/You-Up/"
+          },
+          {
+            "type":"fa fa-github",
+            "description":"Parser",
+            "link":"https://github.com/GreatGrandmaGames/You-Up/tree/master/Story/Parser"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/youupindex.png",
+            "topCaption":"You Up - A mobile text adventure for iOS.",
+            "bottomCaption":"Created for the Global Game Jam 2018",
+            "active":null
+          },
+          {
+            "path":"/images/games/twine-ggjam.png",
+            "topCaption":"Twine",
+            "bottomCaption":"The first section of the game's dialogue tree.",
+            "active":"active"
+          }
+        ]
+    }
+]

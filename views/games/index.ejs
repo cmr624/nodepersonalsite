@@ -19,30 +19,30 @@
         <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-secondary">
           <div class="col-md-5 p-lg-5 mx-auto my-5">
             <h1 class="display-4 font-weight-normal"><%= title %></h1>
-            <p class="lead font-weight-normal"><%=description %></p>
+            <p class="lead font-weight-normal futura"><%=description %></p>
           </div>
           <div class="product-device product-device-1 box-shadow d-none d-md-block"></div>
           <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
         </div>
           <% for (var i = 0; i < games.length; i++) { %>
-            <div class="d-md-flex flex-md-equal w-100 overflow-hidden">
+            <div class="d-md-flex flex-md-equal w-100 overflow-hidden games">
             <% for (var x = 0; x < games[i].length; x++) { %>
               <div class="row">
                 <% if ((i % 2) === (x % 2)){ %>
                   <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                     <div class="my-3 py-3">
-                      <h2 class="display-5"><a><%= games[i][x].title %></a></h2>
+                      <h1 class="display-5 games-title"><a href="<%= games[i][x].link %>"><%= games[i][x].title %></a></h1>
                       <p class="lead"><%= games[i][x].description %></p>
                     </div>
-                    <div class="bg-light box-shadow mx-auto project-thumbnail" style="background-image: url(<%= games[i][x].img %>);"></div>
+                    <a href="<%= games[i][x].link %>"><div class="bg-light box-shadow mx-auto project-thumbnail" style="background-image: url(<%= games[i][x].img %>);background-size: 100%;background-position: centered;"></div></a>
                   </div>
                 <%} else { %>
                   <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div class="my-3 p-3">
-                      <h2 class="display-5"><a href="<%= games[i][x].link %>"><%= games[i][x].title %></a></h2>
-                      <p class="lead"><%= games[i][x].description %></p>
+                      <h1 class="display-5 games-title"><a href="<%= games[i][x].link %>"><%= games[i][x].title %></a></h2>
+                      <p class="lead text-muted"><%= games[i][x].description %></p>
                     </div>
-                    <a href="<%= games[i][x].link %>"><div class="bg-dark box-shadow mx-auto project-thumbnail" style="background-image: url(<%= games[i][x].img %>);"></div></a>
+                    <a href="<%= games[i][x].link %>"><div class="bg-dark box-shadow mx-auto project-thumbnail" style="background-image: url(<%= games[i][x].img %>);background-size: 100%;background-position: centered;"></div></a>
                   </div>
                   <% } %>
                 </div>

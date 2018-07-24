@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+let projectsJSON = require("./json/projectsIndex.json")
+let projectsinfoJSON = require("./json/projects.json")
 
 class project
 {
@@ -12,17 +14,18 @@ class project
   }
 }
 
-let projects = [];
-projects.push(new project("Clarify", "This presentation app won top prize at HackNYU 2018. It is currently in development.", "/images/projects/clarifyLogo.png", "#"));
-projects.push(new project("AR Museum", "An AR application for enhancing historical exhibits at a museum.", "/images/cmlogo.jpg", "/projects/ARFinal"));
+
+let projects = [[projectsJSON[0], projectsJSON[1]]];
 let gifs = [];
 let path = "/images/projects/";
 gifs.push(path + "out2.gif");
 gifs.push(path + "out3.gif");
 
+let projectDescription = "While NYU's Computer Science program has exposed me to C, Java, Python and more, my experience in a variety of APIs through developing web apps and other projects makes me well-equipped as a developer to jump from framework to framework and deliver a quality product."
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('projects/index', { active: "projects", title: 'Projects', description: "While NYU's Computer Science program has exposed me to C, Java, Python and more, my experience in a variety of APIs through developing web apps and other projects makes me well-equipped as a developer to jump from framework to framework and deliver a quality product.", projects: projects});
+  res.render('projects/index', { active: "projects", title: 'Projects', description:projectDescription, projects: projects});
 });
 
 class item
@@ -65,9 +68,9 @@ class img
     this.active = active;
   }
 }
-router.get("/ARFinal", function(req, res, next)
+router.get("/clarify", function(req, res, next)
 {
-  res.render("templates/item.ejs", {active: "projects", item: null, links: null, credits:"Programming, Art, Animation, and Design by Carlos-Michael Rodriguez", images: null});
+  res.render("templates/item.ejs", {active: "projects", css: "/stylesheets/specialclarify.css", item: projectsinfoJSON[0], links: projectsinfoJSON[0].links, credits:" Developed by Elliot Winch, Jevons Wang, Bo Peng, Rachel Rub, and Carlos-Michael Rodriguez", images: projectsinfoJSON[0].images});
 });
 
 module.exports = router;

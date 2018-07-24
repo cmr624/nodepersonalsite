@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Clarify",
+        "description": "Won top prize at HackNYU 2018 as an online presentation app.",
+        "img":"/images/projects/clarifyLogo.png",
+        "link":"/projects/clarify"
+    },
+    {
+        "title": "Blavatnik Archive Museum AR Project",
+        "description": "An AR Project developed for the Blavatnik Archive. More info coming soon.",
+        "img":"/images/projects/blavatnik.jpg",
+        "link":"#"
+    }
+]
