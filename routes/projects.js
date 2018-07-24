@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 let projectsJSON = require("./json/projectsIndex.json")
+let projectsinfoJSON = require("./json/projects.json")
 
 class project
 {
@@ -67,9 +68,9 @@ class img
     this.active = active;
   }
 }
-router.get("/ARFinal", function(req, res, next)
+router.get("/clarify", function(req, res, next)
 {
-  res.render("templates/item.ejs", {active: "projects", item: null, links: null, credits:"Programming, Art, Animation, and Design by Carlos-Michael Rodriguez", images: null});
+  res.render("templates/item.ejs", {active: "projects", css: "/stylesheets/specialclarify.css", item: projectsinfoJSON[0], links: projectsinfoJSON[0].links, credits:" Developed by Elliot Winch, Jevons Wang, Bo Peng, Rachel Rub, and Carlos-Michael Rodriguez", images: projectsinfoJSON[0].images});
 });
 
 module.exports = router;
