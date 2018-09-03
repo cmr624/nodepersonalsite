@@ -153,5 +153,88 @@
             "active":"active"
           }
         ]
+    },
+    {
+        "name": "Dead to Sights",
+        "coverURL": "/images/games/deadtosights.jpg",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description": "A stealth game... about being seen!",
+            "list": null
+          },
+          {
+            "title": "Concept",
+            "description": "Dead to Sights is a stealth game without walls, cover, or a traditional way to hide. Help Cookie, a damaged teddy bear, escape from the toy factory by hiding in plain sight. Enemies can only see Cookie when he is walking. Use stealth, disguise, and the environment to navigate through the level without falling into pits or being detected. The game was developed for the Game Maker's Toolkit Game Jam in 2018.",
+            "list": null
+          },
+          {
+            "title": "Design",
+            "description": "Since the game jam prompt was to make a game in a genre without the central mechanic associated with that genre (as an example, a shooter with no guns), we wanted to explore different ways we can hide in a stealth game. We immediately settled on the mechanic of a toy 'freezing' to seem like a regular toy and go undetected.",
+            "list": null
+          },
+          {
+            "title": "Skills Developed",
+            "description":null,
+            "list": ["Rapid Prototyping", "Unity Class Structure", "Unity 2D", "Github Collaboration, Project Management, and Issue Tracking"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-gamepad",
+            "description":"Play now!",
+            "link":"https://cmr624.itch.io/dead-to-sights"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/deadtosights.jpg",
+            "topCaption":"Dead to Sights",
+            "bottomCaption":"By GreatGrandmaGames",
+            "active":"active"
+          }
+        ]
+    },
+    {
+        "name": "Boomerang Shooter",
+        "coverURL": "/images/games/boomerangvid.gif",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description": "In this fast-paced arcade shooter, your gun has two firing modes: 'stun' and 'retract', and you must successfully pull off this combo consecutively in order to kill enemies.",
+            "list": null
+          },
+          {
+            "title": "Concept",
+            "description": "The game grew organically out of its central premise - that this central mechanic, of shooting and retracting, has gameplay consequences in a fast paced shooter. Everything else, like the combo system and dash mechanic, were added to enhance this central feature!",
+            "list": null
+          },
+          {
+            "title": "Skills Developed",
+            "description":null,
+            "list": ["Rapid Prototyping", "Unity 2D", "Solo Prototyping"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-gamepad",
+            "description":"Play now! (An early build)",
+            "link":"https://cmr624.itch.io/boomerang-shooter"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/boomerangshooter.png",
+            "topCaption":"Boomerang Shooter",
+            "bottomCaption":"By Carlos-Michael",
+            "active":null
+          },
+          {
+            "path":"/images/games/boomerangvid.gif",
+            "topCaption":"Gameplay",
+            "bottomCaption":"Quick gameplay section. Pretty particles!",
+            "active":"active"
+          }
+        ]
     }
 ]
