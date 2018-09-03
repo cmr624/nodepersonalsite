@@ -1,5 +1,17 @@
 [
     {
+        "title": "Dead to Sights",
+        "description": "A stealth game about being seen! Made for the GMTK Game Jam 2018.",
+        "img":"/images/games/deadtosights.jpg",
+        "link":"/games/deadtosights"
+    },
+    {
+        "title": "Boomerang Shooter",
+        "description": "A 2D Unity arcade shooter, made for the Extra Credits Game Jam 2018.",
+        "img":"/images/games/boomerangshooter.png",
+        "link":"/games/boomerangshooter"
+    },
+    {
         "title": "Kirby & the Amazing Burgers",
         "description": "A 2D Javascript cooking game midterm project written in P5.",
         "img":"/images/games/kirby.png",

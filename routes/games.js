@@ -29,7 +29,8 @@ let kitchenCredits = "Programming, Art, Animation, and Design by Carlos-Michael 
 let vrCredits = "Programming, Art, and Design by Nina Demirjian, Elliot Winch, Nesma Belkhodja, and Carlos-Michael Rodriguez";
 let kirbyCredits = "Developed by Carlos-Michael Rodriguez, Jevons Wang, and Nicole Wang";
 let youupcredits="Developed by Nina Demirjian, Elliot Winch, and Carlos-Michael Rodriguez";
-
+let deadtosightscredits = "Developed by Nina Demirjian, Noah Lee, Sean Porio, Carlos-Michael Rodriguez, and Elliot Winch";
+let boomerangcredits = "Developed by Carlos-Michael Rodriguez.";
 router.get("/kitchenprototype", function(req, res, next)
 {
   res.render("templates/item.ejs", {active: "games", css: "/stylesheets/gameinfo.css", item: gamesInfoJSON[0], links: gamesInfoJSON[0].links, credits:kitchenCredits, images: gamesInfoJSON[0].images});
@@ -45,5 +46,13 @@ router.get("/kirby", function(req, res, next)
 router.get("/youup", function(req, res, next)
 {
   res.render("templates/item.ejs", {active: "games", css: "/stylesheets/specialyouup.css", item: gamesInfoJSON[3], links: gamesInfoJSON[3].links, credits:youupcredits, images: gamesInfoJSON[3].images});
+});
+router.get("/deadtosights", function(req, res, next)
+{
+  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/specialyouup.css", item: gamesInfoJSON[4], links: gamesInfoJSON[4].links, credits:deadtosightscredits, images: gamesInfoJSON[4].images});
+});
+router.get("/boomerangshooter", function(req, res, next)
+{
+  res.render("templates/item.ejs", {active: "games", css: "/stylesheets/specialyouup.css", item: gamesInfoJSON[5], links: gamesInfoJSON[5].links, credits:boomerangcredits, images: gamesInfoJSON[5].images});
 });
 module.exports = router;
