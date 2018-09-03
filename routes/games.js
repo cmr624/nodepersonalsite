@@ -10,7 +10,8 @@ var express = require('express');
 var router = express.Router();
 let games = [
   [gamesJSON[0], gamesJSON[1]],
-  [gamesJSON[2], gamesJSON[3]]
+  [gamesJSON[2], gamesJSON[3]],
+  [gamesJSON[4], gamesJson[5]]
 ];
 
 let gifs = [];
