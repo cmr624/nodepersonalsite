@@ -1,6 +1,12 @@
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
+ h1 {
+   font-family: Futura;
+ }
+ h5 {
+   font-family: Futura;
+ }
 
 .product-device {
   position: absolute;
