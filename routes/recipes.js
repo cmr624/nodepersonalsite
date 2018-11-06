@@ -21,17 +21,21 @@ let nuggets = new recipeSplash("chickenParm", "password", "/images/recipes/chick
 let steak = new recipeSplash("chickenParm", "password", "/images/recipes/chicken-parm.jpg", "/recipes/chicken-parm");
 
 let recipes = [];
-for (let i = 0; i < recipesJSON.length / 3; i++){
+for (let i = 0; i < (recipesJSON.length / 3); i++){
     let tmp = [];
     for (let x = 0; x < 3; x++){
+      if ((recipesJSON[(3 * i) + x] !== undefined) && (recipesJSON[(3 * i) + x] !== null)){
+        tmp.push(recipesJSON[(3 * i) + x]);
+      }
 
-      tmp.push(recipesJSON[x + i]);
     }
     recipes.push(tmp);
 }
 
+console.log(recipes);
+
 let category = "Recipes by CM and Family";
-let description = "These are all the recipes I have either written or adapted from various places. If you want any recipes posted here, submit them with the link below. Recipes eventually will be password protected for whoever wants to store.";
+let description = "These are all the recipes I have either written or adapted from various places. If you want any recipes posted here, submit them with the link below. Recipes that are password protected require username and password.";
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -65,13 +69,11 @@ for (let i = 0; i < recipes.length; i++){
     }
     if (authApp === null){
       router.get(recipes[i][x].directLink, function(req, res, next){
-        console.log("should render nuggets 1 / 2");
         res.render("recipes/template.ejs", {css: "/stylesheets/recipe.css", category: category, active: "more", coverURL: recipes[i][x].image, recipe: recipes[i][x]});
       });
     }
     else {
       router.get(recipes[i][x].directLink, authApp, function(req, res, next){
-        console.log("should render nuggets spicy");
         res.render("recipes/template.ejs", {css: "/stylesheets/recipe.css", category: category, active: "more", coverURL: recipes[i][x].image, recipe: recipes[i][x]});
       });
     }
