@@ -228,5 +228,188 @@
         "username": "cm1",
         "password": "cmr"
       }
+    },
+    {
+        "title": "Steak Sandwich",
+        "servings": "1 sandwich",
+        "time": "~30 minutes",
+        "author": "Carlos Michael",
+        "image":"/images/recipes/steak-sandwich.jpg",
+        "link":"/recipes/steak-sandwich",
+        "directLink":"/steak-sandwich",
+        "ingredients":[
+          {
+            "name": "Steak",
+            "quantity":"6 oz"
+          },
+          {
+            "name": "Spinach",
+            "quantity":"A handful"
+          },
+          {
+            "name": "Horseradish",
+            "quantity":"2 tbsp."
+          },
+          {
+            "name": "Gryuere Cheese",
+            "quantity":"1/4 cup"
+          },
+          {
+            "name": "Red Onion",
+            "quantity":"1/4 onion"
+          },
+          {
+            "name": "Bagguette",
+            "quantity":"1 sandwich"
+          }
+        ],
+        "steps":[
+          {
+            "title":"Toast Bread",
+            "description":"Butter both sides of your bread, and toast them on a medium-high pan until golden brown."
+          },
+          {
+            "title":"Make Steak",
+            "description":"Reuse leftover steak, slice it thin while cold, reheat."
+          },
+          {
+            "title":"Assemble",
+            "description":"Spread horseradish on one side of the bread, then add steak to bottom bread. Grate cheese on top of steak, which should slightly melt it since it's still hot. Then add spinach, andn dress the spinach with olive oil, salt, and pepper. Then add thinly sliced red onions."
+          }
+        ],
+      "auth":null
+    },
+    {
+        "title": "Shrimp Scampi",
+        "servings": "1 - 2 Servings",
+        "time": "45 minutes",
+        "author": "Carlos Michael",
+        "image":"/images/recipes/shrimp-scampi/shrimp.png",
+        "link":"/recipes/shrimp-scampi",
+        "directLink":"/shrimp-scampi",
+        "ingredients":[
+          {
+            "name": "Shrimp",
+            "quantity":"1/2 pound (8 - 12 shrimp)"
+          },
+          {
+            "name": "Spaghetti",
+            "quantity":"1/2 box"
+          },
+          {
+            "name": "Shallot",
+            "quantity":"1/2 shallot"
+          },
+          {
+            "name": "Garlic",
+            "quantity":"3 cloves"
+          },
+          {
+            "name": "Parsley",
+            "quantity":"4 - 5 tbsp."
+          },
+          {
+            "name": "Lemon",
+            "quantity":"1 lemon"
+          },
+          {
+            "name": "Dry White Wine",
+            "quantity":"1/2 cup"
+          }
+        ],
+        "steps":[
+          {
+            "title":"Boil Pasta",
+            "description":"Prepare a pot of very salty boiling water. Add pasta and cook until 3-4 minutes before package time."
+          },
+          {
+            "title":"Prepare Shrimp",
+            "description":"Clean. Season with salt, pepper, garlic powder, olive oil, half of garlic, parsley. Marinate for 30 minutes."
+          },
+          {
+            "title":"Fry Shrimp",
+            "description":"In a medium-high skillet, fry the shrimp in a little bit of olive oil, leaving them on one side until almost entirely cooked, then flipp to cook on the other side for very little time. Once flipped, add lemon juice and toss the shrimp in the oil and lemon juice. Take shrimp out of pan and set aside."
+          },
+          {
+            "title":"Add Minced Garlic and Shallots",
+            "description":"After frying and removing the shrimp, add more olive oil and toss in your minced garlic and shallots."
+          },
+          {
+            "title":"Deglaze",
+            "description":"Cook until right before the garlic and shallots get lightly brown, then deglaze the pan by adding white wine. Once the alcohol has cooked off, add butter and mix to incorporate."
+          },
+          {
+            "title":"Add Pasta",
+            "description":"Right as the butter has melted, add in your cooked spaghetti with about 1/4 cup of the water you cooked the spaghetti in. Cook this on high heat and toss."
+          },
+          {
+            "title":"Assemble",
+            "description":"Dress the pasta with pieces of shrimp (chopped or whole) and season with salt, black pepper, and lemon juice. Top with parsley and red pepper flakes."
+          }
+        ],
+      "auth":null
+    },
+    {
+        "title": "Chicken Parmesean",
+        "servings": "3 - 4 servings",
+        "time": "~3 - 4 hours",
+        "author": "Carlos Michael",
+        "image":"/images/recipes/chicken-parm.jpg",
+        "link":"/recipes/chicken-parm",
+        "directLink":"/chicken-parm",
+        "ingredients":[
+          {
+            "name": "Tomato sauce",
+            "quantity":"1 - 2 cups"
+          },
+          {
+            "name": "Chicken Breast",
+            "quantity":"4 cutlets"
+          },
+          {
+            "name": "Fresh Mozarella",
+            "quantity":"2 cups."
+          },
+          {
+            "name": "Parmesean",
+            "quantity":"1 cup"
+          },
+          {
+            "name": "Flour",
+            "quantity":"2 cups"
+          },
+          {
+            "name": "Eggs",
+            "quantity":"3 eggs"
+          },
+          {
+            "name": "Bread Crumbs",
+            "quantity":"2 cups"
+          },
+          {
+            "name": "Vegetable Oil",
+            "quantity":"1/2 cups"
+          }
+        ],
+        "steps":[
+          {
+            "title":"Prepare Chicken Breast",
+            "description":"Cut chicken into large, thin cutlets and pound it out to desired thinness. Season with salt, pepper, garlic powder, onion powder, and lemon."
+          },
+          {
+            "title":"Bread Chicken",
+            "description":"Dredge chicken in flour, then egg, then panko."
+          },
+          {
+            "title":"Fry Chicken",
+            "description":"Fill pan with about 1/4 inch of vegetable oil, then fry chicken on medium on one side until browned only on one side."
+          },
+          {
+            "title":"Finish in Oven",
+            "description":"Flip the chicken, then lightly cover the chicken with sauce, then cover with shredded mozarella cheese. Place pan in the oven at 450 for about 10 minutes until cheese bubbles and burns a bit. Top with shredded parmesean and chopped basil, and a good squeeze of lemon."
+          }
+        ],
+      "auth":null
     }
+
 ]
