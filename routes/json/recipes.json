@@ -1,4 +1,63 @@
 [
+  {
+      "title": "Sausage Ragu Pasta",
+      "servings": "1 serving",
+      "author": "Carlos Michael",
+      "time": "30 min",
+      "image":"/images/recipes/ragu-sausage.jpg",
+      "link":"/recipes/ragu-sausage",
+      "directLink":"/ragu-sausage",
+      "auth": null,
+      "ingredients":[
+        {
+          "name": "Orecchiete",
+          "quantity":"1/4 box"
+        },
+        {
+          "name": "Hot italian sausage",
+          "quantity":"1/4 pound"
+        },
+        {
+          "name": "Ragu or tomato sauce",
+          "quantity":"1/2 cup"
+        },
+        {
+          "name": "Butter",
+          "quantity":"2 tbsp."
+        },
+        {
+          "name": "Parmesean",
+          "quantity":"1/4 cup"
+        },
+        {
+          "name": "Vegetable Oil",
+          "quantity":"2 tbsp."
+        }
+      ],
+      "steps":[
+        {
+          "title":"Boil Pasta",
+          "description":"Boil in salted water, less than box instructions."
+        },
+        {
+          "title":"Cook Sausage",
+          "description":"Cook on medium low heat, cook until almost cooked through."
+        },
+        {
+          "title":"Warm Sauce",
+          "description":"Add sauce to pan with vegetable oil, add sausage and warm through."
+        },
+        {
+          "title":"Combine",
+          "description":"Add pasta into sauce, increase heat and add butter."
+        },
+        {
+          "title":"Serve",
+          "description":"Once all butter is melter, take off the heat and add cheese. Season, serve."
+        }
+      ]
+
+  },
     {
         "title": "Chicken Nuggets",
         "servings": "2-3 servings",
@@ -410,6 +469,169 @@
           }
         ],
       "auth":null
+    },
+    {
+        "title": "Kale Caesar Salad",
+        "servings": "3 - 4 servings",
+        "time": "~30 min",
+        "author": "Carlos Michael",
+        "image":"/images/recipes/kale-caesar.jpg",
+        "link":"/recipes/kale-caesar",
+        "directLink":"/kale-caesar",
+        "ingredients":[
+          {
+            "name": "Kale",
+            "quantity":"1 package, ~2-4 cups"
+          },
+          {
+            "name": "Anchovy",
+            "quantity":"4 anchovies"
+          },
+          {
+            "name": "Garlic",
+            "quantity":"2 cloves"
+          },
+          {
+            "name": "Eggs",
+            "quantity":"2 yolks"
+          },
+          {
+            "name": "Vegetable oil",
+            "quantity":"1/2 cup"
+          },
+          {
+            "name": "Olive Oil",
+            "quantity":"1/4 cup"
+          },
+          {
+            "name": "Lemon",
+            "quantity":"1 lemon"
+          },
+          {
+            "name": "Fresh Parmesean",
+            "quantity":"1/2 cup"
+          },
+          {
+            "name": "Scallions",
+            "quantity":"1 - 2 bunches"
+          },
+          {
+            "name": "Pickled Ginger",
+            "quantity":"2 tbsp."
+          },
+          {
+            "name": "Black Pepper",
+            "quantity":"5 tbsp."
+          }
+        ],
+        "steps":[
+          {
+            "title":"Make Anchovy Paste",
+            "description":"Take anchovies out of the oil and lightly pat them dry. Then, in a mortar and pestle or on a cutting board, pulverize / grind and add a bit of salt. Once this is a paste, add in the garlic and incorporate it into a paste."
+          },
+          {
+            "title":"Make Mayo",
+            "description":"Take the two egg yolks, and add them to a large bowl with the anchovy paste. Whisk to encorporate, then rigorously whisk and slowly drizzle in the olive oil. Once the olive oil is slowly streamed in, add in the vegetable oil at the same rate, maintaining the consistency."
+          },
+          {
+            "title":"Season Mayo into Dressing",
+            "description":"Squeeze and zest half the lemon, add salt, black pepper, and parmesean. Taste it, season."
+          },
+          {
+            "title":"Assemble Salad",
+            "description":"Prepare and wash kale, get rid of the bitter stalks. Chop it up lightly, then in a large bowl add your kale and enough dressing to lightly dress. Toss to combine, season the entire salad with more salt, pepper, and cheese. Serve each bowl of salad with a bit of chopped scallion and pickled ginger."
+          }
+        ],
+      "auth":null
+    },
+    {
+        "title": "Veggie Pasta",
+        "servings": "2 - 3 servings",
+        "time": "~45 min",
+        "author": "Carlos Michael",
+        "image":"/images/recipes/veggie-carbonara.jpg",
+        "link":"/recipes/veggie-pasta",
+        "directLink":"/veggie-pasta",
+        "ingredients":[
+          {
+            "name": "Celery",
+            "quantity":"1 stalk"
+          },
+          {
+            "name": "Carrot",
+            "quantity":"1 carrot"
+          },
+          {
+            "name": "Garlic",
+            "quantity":"1 cloves"
+          },
+          {
+            "name": "Shallot",
+            "quantity":"1/2 shallot"
+          },
+          {
+            "name": "Red onion",
+            "quantity":"1/2 onion"
+          },
+          {
+            "name": "Chicken stock",
+            "quantity":"1/3 cup"
+          },
+          {
+            "name": "Bacon",
+            "quantity":"8 oz."
+          },
+          {
+            "name": "Spaghetti",
+            "quantity":"1/2 box"
+          },
+          {
+            "name": "Pecorino Cheese",
+            "quantity":"1/2 cup"
+          },
+          {
+            "name": "Eggs",
+            "quantity":"2 eggs"
+          },
+          {
+            "name": "Black Pepper",
+            "quantity":"5 tbsp."
+          }
+        ],
+        "steps":[
+          {
+            "title":"Boil Pasta",
+            "description":"Cook the pasta in salt water to 3-4 minutes under the instructions on the box. "
+          },
+          {
+            "title":"Cook Bacon",
+            "description":"Cut up bacon into bite-size pieces, and cook them (relatively slowly) on medium heat."
+          },
+          {
+            "title":"Chop Vegetables",
+            "description":"Finely and evenly chop the celery, onion, and carrot. Put aside. Then, chop up shallots and garlic and set aside."
+          },
+          {
+            "title":"Cook Veggies",
+            "description":"Once bacon is done cooking, add in your chopped onions, celery, and carrots. There should be enough fat to help cook the veggies, but if not, add olive oil. Cook until translucent, then add garlic and shallots. Cook until garlic is just finished cooking, but not brown."
+          },
+          {
+            "title":"Deglaze",
+            "description":"Add in the chicken stock to deglaze the pan, and continually stir to get any bits that stuck to the bottom encorporated into the sauce."
+          },
+          {
+            "title":"Add in Pasta",
+            "description":"Once your veggie / bacon base is ready and the chicken stock is mostly cooked out, then add in your cooked pasta along with a bit of the cooking water. Cook this over high heat and continually mix."
+          },
+          {
+            "title":"Finish Sauce",
+            "description":"Take your eggs and mix them with the cheese in a separate bowl, add pepper. Take the pan off the high heat and toss the pasta for a bit to make sure it's not too hot. Then, gently add in your sauce and stir rigorously until the egg adheres to the noodle and the cheese melts. Don't scramble the eggs."
+          },
+          {
+            "title":"Serve",
+            "description":"Serve finished pasta in bowl, and top with chopped celery leaves, shredded pecorino, and a bit of red onion."
+          }
+        ],
+      "auth":null
     }
-
 ]

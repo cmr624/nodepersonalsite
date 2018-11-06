@@ -15,11 +15,6 @@ let items = [
   [viewAll, submit]
 ];
 
-let chickenParm = new recipeSplash("chickenParm", null, "/images/recipes/chicken-parm.jpg", "/recipes/chicken-parm");
-let kaleCaesar = new recipeSplash("AUTHENTICATE ME", "password", "/images/recipes/chicken-parm.jpg", "/recipes/test");
-let nuggets = new recipeSplash("chickenParm", "password", "/images/recipes/chicken-parm.jpg", "/recipes/chicken-parm");
-let steak = new recipeSplash("chickenParm", "password", "/images/recipes/chicken-parm.jpg", "/recipes/chicken-parm");
-
 let recipes = [];
 for (let i = 0; i < (recipesJSON.length / 3); i++){
     let tmp = [];
@@ -32,7 +27,6 @@ for (let i = 0; i < (recipesJSON.length / 3); i++){
     recipes.push(tmp);
 }
 
-console.log(recipes);
 
 let category = "Recipes by CM and Family";
 let description = "These are all the recipes I have either written or adapted from various places. If you want any recipes posted here, submit them with the link below. Recipes that are password protected require username and password.";
