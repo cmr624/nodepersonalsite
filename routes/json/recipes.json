@@ -1,0 +1,229 @@
+[
+    {
+        "title": "Chicken Nuggets",
+        "servings": "2-3 servings",
+        "time": "30 min (or more for marinating)",
+        "image":"/images/recipes/nuggets.jpg",
+        "link":"/recipes/nuggets",
+        "directLink":"/nuggets",
+        "auth": null,
+        "ingredients":[
+          {
+            "name": "Chicken Thighs",
+            "quantity":"2 thighs"
+          },
+          {
+            "name": "Eggs",
+            "quantity":"2 eggs"
+          },
+          {
+            "name": "Flour",
+            "quantity":"2 cups"
+          },
+          {
+            "name": "Buttermilk",
+            "quantity":"1 cup"
+          },
+          {
+            "name": "Hot Sauce",
+            "quantity":"1/4 cup"
+          },
+          {
+            "name": "Vegetable Oil",
+            "quantity":"2 cups"
+          }
+        ],
+        "steps":[
+          {
+            "title":"Create Marinade",
+            "description":"Beat eggs and mix with milk, then season with salt, pepper, garlic, paprika, chili powder, and hot sauce."
+          },
+          {
+            "title":"Marinate Chicken",
+            "description":"Chop chicken into bite size pieces, and marinate them in the seasoned buttermilk / eggs mixture. Marinate for as long as is safe, but for less than 30 min is also fine."
+          },
+          {
+            "title":"Dredge",
+            "description":"Add about 1/4 cup of the milk mixture to the flour, so there are some clumps of flour. Season the flour well with whatever you like. Add the chicken, one by one, and cover with the flour mixture."
+          },
+          {
+            "title":"Fry",
+            "description":"In a large pot, add the oil and heat to 375. You want to make sure to not go above this, or you'll burn stuff and it'll taste bad. Add in your nuggets a couple at a time, and make sure not to overcrowd. If they're small, they'll cook for about 3-4 minutes."
+          },
+          {
+            "title":"Serve",
+            "description":"Once they leave the oil, season immediately with salt and pepper (or whatever you want). Just make sure it's right after you take them out. Then serve with sauces! An easy and good dipping sauce is mayo and sriracha."
+          }
+        ]
+
+    },
+    {
+        "title": "Chicken and Mushroom Udon",
+        "servings": "3-4 servings",
+        "time": "1 - 4 hours",
+        "image":"/images/recipes/udon/chicken-mushroom-udon.JPG",
+        "link":"/recipes/chicken-mushroom-udon",
+        "directLink":"/chicken-mushroom-udon",
+        "auth": null,
+        "ingredients":[
+          {
+            "name": "Bonito flakes",
+            "quantity":"1.5 cups"
+          },
+          {
+            "name": "Kombu",
+            "quantity":"4 sheets"
+          },
+          {
+            "name": "Udon Noodles",
+            "quantity":"1 serving"
+          },
+          {
+            "name": "Mushrooms",
+            "quantity":"1 cup"
+          },
+          {
+            "name": "Chicken Breast",
+            "quantity":"2 chicken breasts"
+          },
+          {
+            "name": "Sesame Oil",
+            "quantity":"4 tbsp."
+          },
+          {
+            "name": "Soy Sauce",
+            "quantity":"1/4 cup"
+          },
+          {
+            "name": "Mirin",
+            "quantity":"1/4 cup"
+          },
+          {
+            "name": "Scallion",
+            "quantity":"2 bunches"
+          },
+          {
+            "name": "Egg",
+            "quantity":"4 eggs (one per bowl)"
+          }
+        ],
+        "steps":[
+          {
+            "title":"Prepare Dashi",
+            "description":"Soak the kombu in 4 cups of water for 4 hours."
+          },
+          {
+            "title":"Boil Stock",
+            "description":"Gently bring the kombu in the water it has been soaking in to a boil. Once it hits a boil, turn down to a simmer and simmer for 10 minutes. After this, take out the kombu leaves so it is just stock. Add in the bonito flakes, and bring to a boil. Once it hits a boil, simmer lightly for 5 minutes and turn off the heat, letting the bonito flakes sit in the stock for another 10-15 minutes off the heat. Strain and the stock is done."
+          },
+          {
+            "title":"Prepare Mushrooms",
+            "description":"Add 2 tbsp. of sesame oil to soy sauce and mirin, along with a full cup of water. Bring this to a light boil, then add dehydrated mushrooms. Let mushrooms sit in simmering mixture until tender."
+          },
+          {
+            "title":"Cook Chicken",
+            "description":"Sautee chicken breast until cooked through."
+          },
+          {
+            "title":"Prepare Bowls",
+            "description":"Add 1 tbsp. of sesame oil and 2 tbps. of soy sauce in each bowl, along with 1-2 cups of dashi stock."
+          },
+          {
+            "title":"Cook Noodles",
+            "description":"Add the udon into boiling unsalted water and cook for no longer than one minute, or until noodles are chewy but not hard, but not too soft either."
+          },
+          {
+            "title":"Cook Egg",
+            "description":"Cook egg for 6 minutes 40 seconds on high boil. Shock in ice water to stop cooking once done."
+          },
+          {
+            "title":"Assemble",
+            "description":"Add your cooked noodles to the bowl, toss around to mix the oil and soy sauce with the noodles, then top with mushrooms, sliced chicken, soft-boiled egg and chopped scallions."
+          }
+        ]
+    },
+    {
+        "title": "Spicy Tomato Sauce",
+        "servings": "6 - 8 Servings",
+        "time": "1 - 4 hours",
+        "image":"/images/recipes/chicken-parm.jpg",
+        "link":"/recipes/spicy-tomato-sauce",
+        "directLink":"/spicy-tomato-sauce",
+        "ingredients":[
+          {
+            "name": "Whole Canned Tomatoes",
+            "quantity":"1 can"
+          },
+          {
+            "name": "Red Onion",
+            "quantity":"1 onion"
+          },
+          {
+            "name": "Garlic",
+            "quantity":"3 cloves"
+          },
+          {
+            "name": "Shallot",
+            "quantity":"2 shallots"
+          },
+          {
+            "name": "Butter",
+            "quantity":"2 tbsp."
+          },
+          {
+            "name": "Tomato Paste",
+            "quantity":"2 tbsp."
+          },
+          {
+            "name": "Basil",
+            "quantity":"1 bunch"
+          },
+          {
+            "name": "Oregano",
+            "quantity":"3 - 4 sprigs"
+          },
+          {
+            "name": "Thyme",
+            "quantity":"2 sprigs"
+          },
+          {
+            "name": "Bay Leaves",
+            "quantity":"2 leaves"
+          },
+          {
+            "name": "Red Pepper Flakes",
+            "quantity":"2 leaves"
+          },
+          {
+            "name": "Thai chilis",
+            "quantity":"4 chilis"
+          }
+        ],
+        "steps":[
+          {
+            "title":"Start Sauce",
+            "description":"Chop red onions, then add to a medium pot with olive oil and 2 tbsp. butter. Cook until translucent."
+          },
+          {
+            "title":"Add Garlic, Shallots, Chilis",
+            "description":"Chop garlic, shallots, and thai chilis, and add to pot with onions. Cook until fragrant. Add red pepper flakes and cook mixture down for 4-5 minutes on medium heat."
+          },
+          {
+            "title":"Add Tomato Paste",
+            "description":"Add 2 good tbsp. of tomato paste to the mixture, then turn up the heat a bit and cook that mixture through. It should look kind of like a dark red roux at the bottom of your pot."
+          },
+          {
+            "title":"Add Tomatoes and Herbs",
+            "description":"Add a can of whole tomatoes, and crush them well with your hand. Then fill up the can about 3/4 of the way with water (or vegetable / chicken stock) and add to pot. Then add a bunch of basil, two bay leaves, and, optionally, fresh oregano and thyme sprigs."
+          },
+          {
+            "title":"Cook for... Forever",
+            "description":"Bring to a boil, then reduce to a simmer and cook until you're ready to eat it."
+          }
+        ],
+      "auth":{
+        "username": "cm1",
+        "password": "cmr"
+      }
+    }
+]

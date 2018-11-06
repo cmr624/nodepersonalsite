@@ -20,6 +20,17 @@ class pageItem
   }
 }
 
+class recipeSplash
+{
+  constructor(title, password, path, link)
+  {
+    this.title = title;
+    this.password = password;
+    this.img = path;
+    this.link = link;
+  }
+}
+
 class item
 {
   constructor(name, coverURL, sections)
@@ -67,5 +78,6 @@ module.exports = {
   item: item,
   section: section,
   link: link,
-  img: img
+  img: img,
+  recipeSplash: recipeSplash
 };
