@@ -2,6 +2,7 @@
     {
         "title": "Chicken Nuggets",
         "servings": "2-3 servings",
+        "author": "Carlos Michael",
         "time": "30 min (or more for marinating)",
         "image":"/images/recipes/nuggets.jpg",
         "link":"/recipes/nuggets",
@@ -59,6 +60,7 @@
     },
     {
         "title": "Chicken and Mushroom Udon",
+        "author": "Carlos Michael",
         "servings": "3-4 servings",
         "time": "1 - 4 hours",
         "image":"/images/recipes/udon/chicken-mushroom-udon.JPG",
@@ -146,6 +148,7 @@
         "title": "Spicy Tomato Sauce",
         "servings": "6 - 8 Servings",
         "time": "1 - 4 hours",
+        "author": "Carlos Michael",
         "image":"/images/recipes/chicken-parm.jpg",
         "link":"/recipes/spicy-tomato-sauce",
         "directLink":"/spicy-tomato-sauce",

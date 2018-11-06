@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
       <% include ../partials/head %>
+      <link rel="stylesheet" href="<%= css %>">
   </head>
   <body>
 
@@ -27,6 +28,7 @@
                             <img src="<%= items[i][x].image %>" class="img-thumbnail img-fluid img-responsive">
                           </a>
                           <h1><%=items[i][x].title%></h1>
+                          <h5>Author: <%=items[i][x].author%></h5>
 
                           <% if (items[i][x].auth !== null) {%>
                               <a href="<%=items[i][x].link %>">
