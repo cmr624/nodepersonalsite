@@ -1,5 +1,167 @@
 [
   {
+      "title": "Karaage",
+      "servings": "3-4 servings",
+      "author": "Carlos Michael",
+      "time": "4-6 hours",
+      "image":"/images/recipes/karaage.jpeg",
+      "link":"/recipes/karaage",
+      "directLink":"/karaage",
+      "auth": null,
+      "ingredients":[
+        {
+          "name": "Chicken Thighs",
+          "quantity":"2 - 3 pounds"
+        },
+        {
+          "name": "Soy Sauce",
+          "quantity":"1/2 cup"
+        },
+        {
+          "name": "Sake",
+          "quantity":"1/4 cup"
+        },
+        {
+          "name": "Mirin",
+          "quantity":"1/4 cup"
+        },
+        {
+          "name": "Potato Starch",
+          "quantity":"1 cup."
+        },
+        {
+          "name": "Frying Oil",
+          "quantity":"4 cups / enough to fry."
+        }
+      ],
+      "steps":[
+        {
+          "title":"Prepare Thighs",
+          "description":"Cut up thighs into chunks and dump them into combined soy sauce, sake, mirin, and garlic. Let marinate for 4-6 hours."
+        },
+        {
+          "title":"Dredge",
+          "description":"Take each chunk and dredge it in the potato starch."
+        },
+        {
+          "title":"Fry",
+          "description":"Fry each chunk in ~350 degree oil, should be about 4-5 minutes a piece. Drain on a paper towel, season with salt and pepper, serve with spicy mayo (mayo + sriracha)."
+        }
+      ]
+  },
+  {
+      "title": "Ceviche",
+      "servings": "4 serving",
+      "author": "Carlos Michael",
+      "time": "30 min",
+      "image":"/images/recipes/ceviche.jpeg",
+      "link":"/recipes/ceviche-CM",
+      "directLink":"/ceviche-CM",
+      "auth": null,
+      "ingredients":[
+        {
+          "name": "Fresh Fish",
+          "quantity":"1 pound"
+        },
+        {
+          "name": "Limes",
+          "quantity":"4 limes"
+        },
+        {
+          "name": "Red Onions",
+          "quantity":"1/2 onion"
+        },
+        {
+          "name": "Cilantro",
+          "quantity":"3 tbsp."
+        },
+        {
+          "name": "Thai Chili",
+          "quantity":"2 chilis."
+        }
+      ],
+      "steps":[
+        {
+          "title":"Get Fresh Fish",
+          "description":"Get really fresh fish so you don't die."
+        },
+        {
+          "title":"Season Fish",
+          "description":"Squeeze limes over fish, let sit for 30 minutes."
+        },
+        {
+          "title":"On top",
+          "description":"Thinly slice red onions, thai chilis, and cilantro and add on top. Eat."
+        }
+      ]
+  },
+  {
+      "title": "Sweet Potato Roasted Garlic Ravioli",
+      "servings": "2 servings",
+      "author": "Carlos Michael",
+      "time": "2-3 hours",
+      "image":"/images/recipes/ravioliwchicken.jpeg",
+      "link":"/recipes/ravioli-sweet-potato",
+      "directLink":"/ravioli-sweet-potato",
+      "auth": null,
+      "ingredients":[
+        {
+          "name": "Fresh Ravioli",
+          "quantity":"2 servings"
+        },
+        {
+          "name": "Sweet Potato",
+          "quantity":"1 potato"
+        },
+        {
+          "name": "Garlic",
+          "quantity":"1 full head"
+        },
+        {
+          "name": "Lemon",
+          "quantity":"1 lemon."
+        },
+        {
+          "name": "Parmesean Cheese",
+          "quantity":"4 oz. (?)"
+        },
+        {
+          "name": "Basil",
+          "quantity":"4 tbsp."
+        },
+        {
+          "name": "Scallion",
+          "quantity":"1 bunch"
+        }
+      ],
+      "steps":[
+        {
+          "title":"Make or buy fresh ravioli to stuff.",
+          "description":"To make it look up fresh pasta recipes but you'll just need eggs and flour."
+        },
+        {
+          "title":"Roast Garlic",
+          "description":"Cut off top 1/3 of garlic head, add sea salt and olive oil and cover completely with foil. Put into oven at 450 degrees for an hour."
+        },
+        {
+          "title":"Cook Sweet Potato",
+          "description":"Cover in tin foil, add to oven for ~30 minutes or until tender."
+        },
+        {
+          "title":"Make Filling",
+          "description":"Take out roasted garlic (should be a paste) and add cooked sweet potato, zest of 1 lemon and juice of 1/2 lemon, fresh basil, parmesean."
+        },
+        {
+          "title":"Cook and Serve",
+          "description":"Stuff the ravioli, cook for < 3 minutes, and serve with scallions and butter."
+        },
+        {
+          "title":"+ Chicken",
+          "description":"The chicken I made here was pounded out so it was really thin, then seasoned with a bunch of spices and fried up really quickly."
+        }
+      ]
+  },
+  {
       "title": "Sausage Ragu Pasta",
       "servings": "1 serving",
       "author": "Carlos Michael",
@@ -56,9 +218,8 @@
           "description":"Once all butter is melter, take off the heat and add cheese. Season, serve. Adding sauteed mushrooms on top is also yum."
         }
       ]
-
   },
-    {
+  {
         "title": "Chicken Nuggets",
         "servings": "2-3 servings",
         "author": "Carlos Michael",
@@ -116,8 +277,8 @@
           }
         ]
 
-    },
-    {
+  },
+  {
         "title": "Chicken and Mushroom Udon",
         "author": "Carlos Michael",
         "servings": "3-4 servings",
@@ -203,7 +364,7 @@
           }
         ]
     },
-    {
+  {
         "title": "Spicy Tomato Sauce",
         "servings": "6 - 8 Servings",
         "time": "1 - 4 hours",
@@ -288,7 +449,7 @@
         "password": "cmr"
       }
     },
-    {
+  {
         "title": "Steak Sandwich",
         "servings": "1 sandwich",
         "time": "~30 minutes",
@@ -338,7 +499,7 @@
         ],
       "auth":null
     },
-    {
+  {
         "title": "Shrimp Scampi",
         "servings": "1 - 2 Servings",
         "time": "45 minutes",
@@ -408,7 +569,7 @@
         ],
       "auth":null
     },
-    {
+  {
         "title": "Chicken Parmesean",
         "servings": "3 - 4 servings",
         "time": "~3 - 4 hours",
@@ -470,7 +631,7 @@
         ],
       "auth":null
     },
-    {
+  {
         "title": "Kale Caesar Salad",
         "servings": "3 - 4 servings",
         "time": "~30 min",
@@ -544,7 +705,7 @@
         ],
       "auth":null
     },
-    {
+  {
         "title": "Veggie Pasta",
         "servings": "2 - 3 servings",
         "time": "~45 min",
