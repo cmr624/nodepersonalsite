@@ -1,5 +1,59 @@
 [
   {
+      "title": "Cake de Abuela",
+      "servings": "1 cake",
+      "author": "'Tio Charlie'",
+      "time": "1 hour",
+      "image":"/images/recipes/abuelacake.jpg",
+      "link":"/recipes/abuelacake",
+      "directLink":"/abuelacake",
+      "auth": null,
+      "ingredients":[
+        {
+          "name": "Cream Cheese",
+          "quantity":"8 oz"
+        },
+        {
+          "name": "Butter",
+          "quantity":"1/2 lb (2 sticks)"
+        },
+        {
+          "name": "Sugar",
+          "quantity":"2 cups"
+        },
+        {
+          "name": "Self Rising Flour",
+          "quantity":"2 cups"
+        },
+        {
+          "name": "Eggs",
+          "quantity":"6 eggs"
+        },
+        {
+          "name": "Vanilla Extract",
+          "quantity":"2 tbsp."
+        }
+      ],
+      "steps":[
+        {
+          "title":"Prepare Ingredients",
+          "description":"Ingredients must be at room temperature for better consistency of cake batter. Preheat oven to 350 degrees."
+        },
+        {
+          "title":"Create batter",
+          "description":"At high speed, blend butter and cream cheese until a smooth cream base is seen. Add sugar interlacing it with eggs. Once done reduce speed of mixer to lowest speed and slowly add flour at 1/4 cup increments.  Make sure flour is blended thoroughly prior to adding additional flour.  Note: alternative method is to manually fold flour to batter."
+        },
+        {
+          "title":"Add Extract",
+          "description":"Once flour is added, add Vanilla extract and pour batter into pan."
+        },
+        {
+          "title":"Bake",
+          "description":"Bake 350 degrees for 35 in convection oven, 45 minutes in a regular oven."
+        }
+      ]
+  },
+  {
       "title": "Karaage",
       "servings": "3-4 servings",
       "author": "Carlos Michael",
