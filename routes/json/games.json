@@ -236,5 +236,72 @@
             "active":"active"
           }
         ]
+    },
+    {
+        "name": "Procedurally Generated Firearms",
+        "coverURL": "/images/games/procgenfirearms.png",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description": "We wanted to create a tool that generates procedural projectile-style firearms.",
+            "list": null
+          },
+          {
+            "title": "Design",
+            "description": "We studied a variety of different shooters that have projectile-style weapons, and defined a set of criteria of weapons. Overwatch served as a useful touchstone, since each character has distinct mechanics for their weapon. For example, in Overwatch, we looked at what features firearms have that changes the way users interact with them. One comparison that we analyzed was the difference between characters Symmetra and Junkrat. Both fire projectiles which cause high damage on impact, but because of the difference in projectile speed (low for Symmetra and high for Junkrat) and gravity (none for Symmetra and high for Junkrat), the two heroes have very different play styles.",
+            "list": null
+          },
+          {
+            "title": "Projectile Firearm Characteristics",
+            "description":null,
+            "list": ["Bolt / Semi-automatic / Burst / Auto", "Damage, Damage falloff", "Range", "Velocity", "Rate of Fire", "Reload, Ammo Capacity, Time of Reload", "Charge Time", "Random Spread", "Projectile Count", "Area of Effect", "Damage on Impact", "Bullet Drop", "Crowd Control / Push-back"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-gamepad",
+            "description":"Try now!",
+            "link":"https://cmr624.itch.io/procedurally-generated-firearms"
+          },
+          {
+            "type":"fa fa-github",
+            "description": "Source Code",
+            "link":"https://github.com/elliot-winch/ProcJam2018"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/procgenfirearms.png",
+            "topCaption":"ProcGen Firearms",
+            "bottomCaption":"By Carlos-Michael and Elliot Winch",
+            "active":"active"
+          }
+        ]
+    },
+    {
+        "name": "Space Pirate Shooter",
+        "coverURL": "/images/games/spacepirate.png",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description": "Using our Procedurally Generated Firearms tool, we created 'parametric' firearms and tried implementing it into a shooter. This project is currently in development, but a small demo is avaliable to test out the movement mechanics, zero-g movement, and shooting in a FPS environment.",
+            "list": ["Elliot Winch", "Carlos-Michael Rodriguez", "Kevin Yang", "Christy Welch"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-gamepad",
+            "description":"Play now! (An early build)",
+            "link":"https://cmr624.itch.io/space-pirates"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/games/spacepirate.png",
+            "topCaption":"Space Pirate Screenshot",
+            "bottomCaption":"In Development",
+            "active":"active"
+          }
+        ]
     }
 ]

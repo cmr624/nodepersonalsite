@@ -1,5 +1,17 @@
 [
     {
+        "title": "Proc-Gen Firearms",
+        "description": "A tech demo for Procedurally Generated Firearms",
+        "img":"/images/games/procgenfirearms.png",
+        "link":"/games/procgenfirearms"
+    },
+    {
+        "title": "Space Pirate Shooter",
+        "description": "A shooter demo using ProcGen Firearms",
+        "img":"/images/games/spacepirate.png",
+        "link":"/games/spacepirate"
+    },
+    {
         "title": "Dead to Sights",
         "description": "A stealth game about being seen! Made for the GMTK Game Jam 2018.",
         "img":"/images/games/deadtosights.jpg",
