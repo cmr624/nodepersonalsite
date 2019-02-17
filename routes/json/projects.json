@@ -34,5 +34,77 @@
             "active":"active"
           }
         ]
+    },
+    {
+        "name": "Node Personal Site",
+        "coverURL": "/images/cmlogo.jpg",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description":"Created as my first dynamic node-powered website, my portfolio website is a culmination of many of the lessons learned in Applied Internet Technology. It is fully generated using EJS templating and most of the individual pages are dynamically created and templated using JSON, so I can rapidly add new webpages by simply adding more JSON content to the repository.",
+            "list": null
+          },
+          {
+            "title": "Technologies Used",
+            "description":null,
+            "list": ["Node JS", "MongoDB", "HTML5 + CSS3", "Bootstrap", "EJS", "Github"]
+          },
+          {
+            "title": "Features",
+            "description":null,
+            "list": ["Responsive, mobile-friendly", "HTTP Authentication for recipes", "Projects, games, and recipes have templated pages generated from JSON objects"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-github",
+            "description":"Github Repository",
+            "link":"https://github.com/cmr624/nodepersonalsite"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/cmlogo.jpg",
+            "topCaption":"Portfolio Website",
+            "bottomCaption":"Developed by CM",
+            "active":"active"
+          }
+        ]
+    },
+    {
+        "name": "Unity Asset Packages",
+        "coverURL": "/images/games/graphicsfinalgif.gif",
+        "sections":[
+          {
+            "title": "Project Description",
+            "description":"A Unity codebase to be able to reuse for a variety of projects. The packages include a variety of gameplay systems that can be used for many different types and genres of games. All systems are built with a built-in serialization system for easy porting to online games or the creation of saving and loading game states, statistics, and files.",
+            "list": null
+          },
+          {
+            "title": "Technologies Used",
+            "description":null,
+            "list": ["Unity", "C#", "Probuilder"]
+          },
+          {
+            "title": "Asset Packages",
+            "description":null,
+            "list": ["Parametric Firearms", "Character 2D, 3D, and ZeroG Movement", "Ability Management", "Interactive Environment Objects", "Data Serialization"]
+          }
+        ],
+        "links":[
+          {
+            "type":"fa fa-github",
+            "description":"Github Repository",
+            "link":"https://github.com/GreatGrandmaGames/GrandmaAssetPackages"
+          }
+        ],
+        "images":[
+          {
+            "path":"/images/cmlogo.jpg",
+            "topCaption":"procgenfirearms.png",
+            "bottomCaption":"Developed by CM and Elliot Winch, ProcGen Firearms were the first asset package formalized in the repo.",
+            "active":"active"
+          }
+        ]
     }
 ]

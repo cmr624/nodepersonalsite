@@ -6,6 +6,18 @@
         "link":"/projects/clarify"
     },
     {
+        "title": "Node Personal Site",
+        "description": "www.carlos-michael.com is a website built with NodeJS.",
+        "img":"/images/cmlogo.jpg",
+        "link":"/projects/nodepersonalsite"
+    },
+    {
+        "title": "Unity Asset Packages",
+        "description": "A codebase of reusable Unity systems.",
+        "img":"/images/games/spacepirate.png",
+        "link":"/projects/assetpackages"
+    },
+    {
         "title": "Blavatnik Archive Museum AR Project",
         "description": "An AR Project developed for the Blavatnik Archive. More info coming soon.",
         "img":"/images/projects/blavatnik.jpg",
