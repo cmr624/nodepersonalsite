@@ -41,7 +41,7 @@
         "sections":[
           {
             "title": "Project Description",
-            "description":"Created as my first dynamic node-powered website, my portfolio website is a culmination of many of the lessons learned in Applied Internet Technology. It is fully generated using EJS templating and most of the individual pages are dynamically created and templated using JSON, so I can rapidly add new webpages by simply adding more JSON content to the repository.",
+            "description":"Created as my first dynamic Node-powered website, my portfolio website is a combination of many of the concepts, lessons, and material from Applied Internet Technology, a CS elective at NYU. It is fully generated using EJS templating and most of the individual pages are dynamically created and templated using JSON information, so I can rapidly add new webpages by simply adding more JSON content to the repository.",
             "list": null
           },
           {
